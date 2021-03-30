@@ -47,10 +47,10 @@ function CheckOnlineStatus(user_login) {
     var options = {
         url: 'https://api.twitch.tv/helix/streams?user_login=' + user_login,
         headers: {
-            'Client-ID': auth.9nuu68vcqhdqio6hurcbps5sroq0h6
+            'Client-ID': 9nuu68vcqhdqio6hurcbps5sroq0h6
         }
     };
     return options;
 }
 
-client.login(auth.ODI2NDU2MDA2MzAwMjcwNjEy.YGMvIg.v7Rwb36ZTDqteeUKzEdiHTZaLrE);
+client.login(ODI2NDU2MDA2MzAwMjcwNjEy.YGMvIg.v7Rwb36ZTDqteeUKzEdiHTZaLrE);
